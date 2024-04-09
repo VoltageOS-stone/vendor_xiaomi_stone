@@ -1438,6 +1438,7 @@ PRODUCT_PACKAGES += \
     PowerOffAlarm \
     HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND \
     HotwordEnrollmentXGoogleHEXAGON_WIDEBAND \
+    QtiTelephony \
     QtiTelephonyService \
     atfwd \
     uceShimService \

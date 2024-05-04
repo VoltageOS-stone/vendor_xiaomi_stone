@@ -8,7 +8,7 @@
                 "PCBA_M17_P1-1_CN","PCBA_M17_P1-1_CN_NEW","PCBA_M17_P1-1_IN","PCBA_M17P_P1-1_IN",
                 "PCBA_M17_P2_CN","PCBA_M17_P2_CN_NEW","PCBA_M17_P2_IN","PCBA_M17P_P2_IN",
                 "PCBA_M17_MP_CN","PCBA_M17_MP_CN_NEW","PCBA_M17_MP_IN","PCBA_M17P_MP_IN","PCBA_M17X_MP_CN",
-                "PCBA_M17X_P0_1_CN","PCBA_M17X_P1_CN","PCBA_M17X_P1_1_CN","PCBA_M17X_P2_CN"]
+                "PCBA_M17X_P0_1_CN","PCBA_M17X_P1_CN","PCBA_M17X_P1_1_CN","PCBA_M17X_P2_CN","PCBA_M17_MP_CN_ZS"]
   },
     "qmc630x_0":{
     "owner": "qmc630x",

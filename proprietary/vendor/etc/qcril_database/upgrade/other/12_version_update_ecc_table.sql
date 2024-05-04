@@ -47,3 +47,42 @@ INSERT INTO qcril_emergency_source_hard_mcc_table VALUES('238','118','','');
 INSERT INTO qcril_emergency_source_hard_mcc_table VALUES('238','119','','');
 INSERT INTO qcril_emergency_source_hard_mcc_table VALUES('238','999','','');
 /*hq-lijiazheng for HQ-281034  @2023/2/23 end*/
+
+/*real emergency*/
+/*M17-U code for HQ-315308 by huangtongtong on 2023/9/13 start*/
+INSERT INTO qcril_emergency_source_mcc_mnc_table VALUES('748','10','911','','');
+INSERT INTO qcril_emergency_source_mcc_mnc_table VALUES('748','10','112','','');
+INSERT INTO qcril_emergency_source_mcc_mnc_table VALUES('202','10','112','','');
+INSERT INTO qcril_emergency_source_mcc_mnc_table VALUES('202','01','112','','');
+INSERT INTO qcril_emergency_source_mcc_mnc_table VALUES('202','05','112','','');
+INSERT INTO qcril_emergency_source_mcc_mnc_table VALUES('202','10','911','','');
+INSERT INTO qcril_emergency_source_mcc_mnc_table VALUES('202','01','911','','');
+INSERT INTO qcril_emergency_source_mcc_mnc_table VALUES('202','05','911','','');
+/*M17-U code for HQ-315308 by huangtongtong on 2023/9/13 end*/
+
+/*emergency call without SIM*/
+/*M17-U code for HQ-315308 by huangtongtong on 2023/9/13 start*/
+INSERT INTO qcril_emergency_source_hard_mcc_table VALUES('748','000','','');
+INSERT INTO qcril_emergency_source_hard_mcc_table VALUES('748','110','','');
+INSERT INTO qcril_emergency_source_hard_mcc_table VALUES('748','118','','');
+INSERT INTO qcril_emergency_source_hard_mcc_table VALUES('748','119','','');
+INSERT INTO qcril_emergency_source_hard_mcc_table VALUES('748','999','','');
+INSERT INTO qcril_emergency_source_hard_mcc_table VALUES('748','08','','');
+INSERT INTO qcril_emergency_source_hard_mcc_table VALUES('505','000','','');
+INSERT INTO qcril_emergency_source_hard_mcc_table VALUES('505','112','','');
+INSERT INTO qcril_emergency_source_hard_mcc_table VALUES('406','112','','');
+INSERT INTO qcril_emergency_source_hard_mcc_table VALUES('202','112','','');
+INSERT INTO qcril_emergency_source_hard_mcc_table VALUES('202','911','','');
+/*M17-U code for HQ-315308 by huangtongtong on 2023/9/13 end*/
+
+/*fake emergency with SIM*/
+/*M17-U code for HQ-315308 by huangtongtong on 2023/9/13 start*/
+INSERT INTO qcril_emergency_source_voice_table VALUES('604','15','','full');
+INSERT INTO qcril_emergency_source_voice_table VALUES('604','19','','full');
+INSERT INTO qcril_emergency_source_voice_table VALUES('604','177','','full');
+/*M17-U code for HQ-315308 by huangtongtong on 2023/9/13 end*/
+
+/*M17-U code for HQ-315308 by huangtongtong on 2023/9/13 start*/
+INSERT INTO qcril_emergency_source_voice_mcc_mnc_table VALUES('732','101','101','','full');
+/*M17-U code for HQ-315308 by huangtongtong on 2023/9/13 end*/
+
